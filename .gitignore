@@ -1,0 +1,181 @@
+# Initially taken from Github's Python gitignore file
+
+# Byte-compiled / optimized / DLL files
+Oscar/__pycache__/
+Oscar/*.py[cod]
+Oscar/*$py.class
+
+# C extensions
+Oscar/*.so
+
+# Distribution / packaging
+Oscar/.Python
+Oscar/build/
+Oscar/develop-eggs/
+Oscar/dist/
+Oscar/downloads/
+Oscar/eggs/
+Oscar/.eggs/
+Oscar/lib/
+Oscar/lib64/
+Oscar/parts/
+Oscar/sdist/
+Oscar/var/
+Oscar/wheels/
+Oscar/*.egg-info/
+Oscar/.installed.cfg
+Oscar/*.egg
+Oscar/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+Oscar/*.manifest
+Oscar/*.spec
+
+# Installer logs
+Oscar/pip-log.txt
+Oscar/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+Oscar/htmlcov/
+Oscar/.tox/
+Oscar/.nox/
+Oscar/.coverage
+Oscar/.coverage.*
+Oscar/.cache
+Oscar/nosetests.xml
+Oscar/coverage.xml
+Oscar/*.cover
+Oscar/.hypothesis/
+Oscar/.pytest_cache/
+
+# Translations
+Oscar/*.mo
+Oscar/*.pot
+
+# Django stuff:
+Oscar/*.log
+Oscar/local_settings.py
+Oscar/db.sqlite3
+
+# Flask stuff:
+Oscar/instance/
+Oscar/.webassets-cache
+
+# Scrapy stuff:
+Oscar/.scrapy
+
+# Sphinx documentation
+Oscar/docs/_build/
+
+# PyBuilder
+Oscar/target/
+
+# Jupyter Notebook
+Oscar/.ipynb_checkpoints
+
+# IPython
+Oscar/profile_default/
+Oscar/ipython_config.py
+
+# pyenv
+Oscar/.python-version
+
+# celery beat schedule file
+Oscar/celerybeat-schedule
+
+# SageMath parsed files
+Oscar/*.sage.py
+
+# Environments
+Oscar/.env
+Oscar/.venv
+Oscar/env/
+Oscar/venv/
+Oscar/ENV/
+Oscar/env.bak/
+Oscar/venv.bak/
+
+# Spyder project settings
+Oscar/.spyderproject
+Oscar/.spyproject
+
+# Rope project settings
+Oscar/.ropeproject
+
+# mkdocs documentation
+Oscar//site
+
+# mypy
+Oscar/.mypy_cache/
+Oscar/.dmypy.json
+Oscar/dmypy.json
+
+# Pyre type checker
+Oscar/.pyre/
+
+# vscode
+Oscar/.vscode
+
+# TF code
+Oscar/tensorflow_code
+
+# Models
+Oscar/models
+Oscar/proc_data
+
+# examples
+Oscar/runs
+Oscar/examples/runs
+
+# pyCharm
+Oscar/.idea/
+
+# local folders
+Oscar/data
+Oscar/models
+Oscar/output
+
+
+# output dir
+py-bottom-up-attention/output
+py-bottom-up-attention/instant_test_output
+py-bottom-up-attention/inference_test_output
+
+
+py-bottom-up-attention/*.jpg
+py-bottom-up-attention/*.png
+py-bottom-up-attention/*.txt
+
+# compilation and distribution
+py-bottom-up-attention/__pycache__
+py-bottom-up-attention/_ext
+py-bottom-up-attention/*.pyc
+py-bottom-up-attention/*.so
+py-bottom-up-attention/detectron2.egg-info/
+py-bottom-up-attention/build/
+py-bottom-up-attention/dist/
+
+# pytorch/python/numpy formats
+py-bottom-up-attention/*.pth
+py-bottom-up-attention/*.pkl
+py-bottom-up-attention/*.npy
+
+# ipython/jupyter notebooks
+py-bottom-up-attention/*.ipynb
+py-bottom-up-attention/**/.ipynb_checkpoints/
+
+# Editor temporaries
+py-bottom-up-attention/*.swn
+py-bottom-up-attention/*.swo
+py-bottom-up-attention/*.swp
+py-bottom-up-attention/*~
+
+# Pycharm editor settings
+py-bottom-up-attention/.idea
+
+# project dirs
+py-bottom-up-attention/detectron2/model_zoo/configs
+py-bottom-up-attention/datasets
+py-bottom-up-attention/models
