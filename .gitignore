@@ -170,7 +170,7 @@ py-bottom-up-attention/**/.ipynb_checkpoints/
 py-bottom-up-attention/*.swn
 py-bottom-up-attention/*.swo
 py-bottom-up-attention/*.swp
-py-bottom-up-attention/*~
+#py-bottom-up-attention/*~
 
 # Pycharm editor settings
 py-bottom-up-attention/.idea
